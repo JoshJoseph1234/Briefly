@@ -1,0 +1,17 @@
+Project Sprint Review – 15 Aug 2025
+
+Attendees: Priya (PM), Rahul (BE), Sneha (FE), Arjun (QA), Meera (Design)
+
+Discussion:
+- Login latency reduced from 800ms to 220ms after caching fix.
+- Payment webhook failed twice on 12 Aug; root cause under investigation.
+- Onboarding funnel improved by 6%.
+- UPI PSP integration blocked by missing compliance doc from vendor.
+- Beta users requested dark mode; design has a draft ready.
+- Critical bug in CSV export (commas in fields) – fix merged, deploy pending.
+
+Action Items:
+- Rahul to create postmortem for webhook incidents by 18 Aug.
+- Sneha to implement CSV export fix rollout plan by 16 Aug.
+- Meera to finalize dark mode color tokens by 20 Aug.
+- Priya to push vendor for compliance doc and escalate if no response by 17 Aug.
